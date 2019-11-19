@@ -1,0 +1,32 @@
+html, body {
+    font: 13pt arial;
+}
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+header, footer {
+    clear: left;
+    text-align: center;
+    color: white;
+    background-color: rgb(69, 97, 167);
+}
+header {
+    padding: 0.8em;
+}
+footer {
+    padding: 0.1em;
+}
+section, article {display: block;}
+section, article {float: left;}
+section, article {margin: 5px; width: 1000px; overflow: hidden;}
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+aside {
+    float: left;
+    max-width: 600px;
+    margin: 0;
+    padding: 1em;
+}
