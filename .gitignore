@@ -9,6 +9,11 @@
 *.userosscache
 *.sln.docstates
 .DS_Store
+data/*.zip
+data/GraphProt_CLIP_sequences/*
+data/__pycache__/
+data/__MACOSX/
+utils/__pycache__/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
